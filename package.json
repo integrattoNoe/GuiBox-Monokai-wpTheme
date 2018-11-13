@@ -1,0 +1,20 @@
+{
+  "name": "Base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "animation.css": "^0.1.0",
+    "aos": "^2.2.0",
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "less": "^3.0.1"
+  },
+  "description": ""
+}

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Oxygen+Mono|Noto+Sans|Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Poppins|Open+Sans:300');
+@azul: #66d9ef;
+@verde: #a6e22e;
+@naranja: #fd971f;
+@rosa: #f92672;
+
+
+@light-blue: @azul + #111;
+@h1Color: #fff;
+@h1Font: Helvetica, sans-serif;
+@h1Size: 30px;
+@h5Size: 1.5rem;
+@margen1: 20px auto;
+@bodyBack: #111111;
+@colorBackEntrada:#1c1c1c;
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+body{
+	background-color:@bodyBack;
+	min-height: 100vh;
+}
+body,html{
+	margin: 0px !important;
+	overflow-x: hidden;
+}
+h1, h2{
+	color:@h1Color;
+	font-family: @h1Font;
+	font-size: @h1Size;
+	margin: @margen1;
+}
+h2{
+	font-size: calc(@h1Size - 5px);
+}
+h5{
+  font-size:@h5Size;
+}
+@azul-fuerte:#2E4A62;
+@azul-claro:#6F9FD8;
+
+nav{
+	/*background:@azul-fuerte;*/
+}
+#entry-content{
+	justify-content: center;
+}
+.container{
+	/*margin: 80px 0px 0px 0px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);*/
+}
+#mainContent{
+	width: 100vw;
+	position: relative;
+}
+.entry-image{
+	width: 100%;
+	opacity: .85;
+}
+.entry-image img{
+	width: 100%;
+	height: auto;
+}
+.divItemDashboard{
+   background: @colorBackEntrada;
+   /* margin: 10px; */
+  /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);0 1px 15px 1px rgba(69,65,78,.08);*/
+   margin: 20px 10px;
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   padding: 0px !important;
+   min-width: 280px;
+   max-width: 380px;
+   /*border-radius: 10px;*/
+   color:#fff;
+ }
+ .header-entry{
+ 	height: 50px;
+ 	width: 100%;
+  display: none;
+ }
+ .entry-title{
+ 	text-align: center;
+ 	/*background: #6F9FD8;*/
+ 	width: 100%;
+ 	padding: 10px 0px;
+  color:@verde;
+ }
+ .divContent{
+ 	padding: 10px;
+ }
+ #bann{
+ 	background-image: url("<?echo get_template_directory_uri();?>/src/images/gui_box4.png");/*url('http://localhost/artMaker/wp-content/themes/guibox/src/images/gui_box4.png');*/
+    min-height: 460px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #1d1e22;
+ 	/*position: fixed;*/
+ 	background-attachment: fixed;
+    width: 100vw;
+ }
+ #guiboxContent{
+ 	background: @bodyBack;
+    z-index: 9;
+    position: relative;
+    /*top: 430px;*/
+    height: auto;
+    overflow: hidden;
+    /*top: 460px;*/
+ }
+.navFix{
+	position: fixed;
+	top:0;
+	width: 100%;
+	background-color: @bodyBack;
+	z-index: 999;
+}
+.mainFix{
+	/*position: relative;
+	top: 90px;*/
+	margin-top: 90px;
+}
+a.leerMas{
+  color:@rosa !important;
+}
+footer{
+	margin-top: 150px;
+	position: relative;
+	background: red;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*footer*/
+
+
+.social {
+  margin: 20px 0 40px;
+  text-align: center;
+}
+.social__item {
+  display: inline-block;
+  margin: 10px;
+}
+.social .fa {
+  background: #F0EDE5;
+  border-radius: 35px;
+  color: #818181;
+  cursor: pointer;
+  display: block;
+  font-size: 30px;
+  height: 70px;
+  line-height: 70px;
+  position: relative;
+  text-align: center;
+  transition: all .2s;
+  width: 70px;
+}
+.social .fa:after {
+  color: #818181;
+  content: attr(data-count);
+  font-size: 14px;
+  left: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 100%;
+  width: 100%;
+}
+.social .fa-facebook:hover {
+  box-shadow: 0 0 15px rgba(59, 89, 152, 0.5) inset;
+  color: #3b5998;
+}
+.social .fa-vk:hover {
+  box-shadow: 0 0 15px rgba(69, 102, 142, 0.5) inset;
+  color: #45668e;
+}
+.social .fa-twitter:hover {
+  box-shadow: 0 0 15px rgba(0, 172, 237, 0.5) inset;
+  color: #00aced;
+}
+.social .fa-pinterest:hover {
+  box-shadow: 0 0 15px rgba(203, 32, 39, 0.5) inset;
+  color: #cb2027;
+}
+.social .fa-linkedin:hover {
+  box-shadow: 0 0 15px rgba(0, 123, 182, 0.5) inset;
+  color: #007bb6;
+}
+.social .fa-google-plus:hover {
+  box-shadow: 0 0 15px rgba(221, 75, 57, 0.5) inset;
+  color: #dd4b39;
+}

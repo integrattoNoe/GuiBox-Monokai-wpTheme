@@ -1,0 +1,37 @@
+.navbar-inverse{
+	opacity: 0.8;
+}
+
+#wpadminbar{
+	display: none;
+}
+.navbar{
+	position: absolute;	
+}
+.navbar-fixed-top{
+	margin-right: 0;
+	margin-left: 0;
+}
+#principal{
+	width: 100%;
+}
+#galeria{
+	margin-left:0;
+	margin-right: 0; 
+}
+
+.wonderpluginslider,#wonderpluginslider-1{
+	width: 100%;
+}
+#metaslider_11{
+	overflow: hidden;
+}
+
+.navbar-inner > .container{
+	width: 100%;
+}
+.nav-collapse{
+	justify-content: center;
+	display: flex;
+	flex-flow: column;
+}

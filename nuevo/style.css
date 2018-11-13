@@ -1,0 +1,11 @@
+/*
+Theme Name: WPBootstrap
+Theme URI: http://geekpurple.com/crear-una-plantilla-de-wordpress-con-bootstrap/
+Description: Mi primer tema de WP.
+Author: Yolanda Jimenez
+Author URI: http://geekpurple.com/crear-una-plantilla-de-wordpress-con-bootstrap/
+Version: 1.0
+*/
+@import url('css/bootstrap.css'); 
+@import url('css/bootstrap-responsive.css'); 
+@import url('css/estilos.css');
